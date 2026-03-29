@@ -1,0 +1,11 @@
+﻿src/components/Labs/Biology/AnatomyCanvas.tsx(246,13): error TS2322: Type '(o: OrganInfo) => void' is not assignable to type '(o: OrganInfo | null) => void'.
+  Types of parameters 'o' and 'o' are incompatible.
+    Type 'OrganInfo | null' is not assignable to type 'OrganInfo'.
+      Type 'null' is not assignable to type 'OrganInfo'.
+src/components/Labs/Biology/VRAnatomyLab.tsx(474,11): error TS2353: Object literal may only specify known properties, and 'xrCompatible' does not exist in type 'Renderer | ((canvas: Canvas) => Renderer) | Partial<Properties<WebGLRenderer> | WebGLRendererParameters>'.
+src/components/Labs/BiologyLab.tsx(82,11): error TS2322: Type '{ activeSystem: BodySystem; studyMode: boolean; quizTarget: OrganInfo | null; onOrganSelect: Dispatch<SetStateAction<OrganInfo | null>>; explodeAmount: number; }' is not assignable to type 'IntrinsicAttributes & AnatomyCanvasProps'.
+  Property 'activeSystem' does not exist on type 'IntrinsicAttributes & AnatomyCanvasProps'.
+src/components/Labs/Chemistry/VRChemistryLab.tsx(849,11): error TS2353: Object literal may only specify known properties, and 'xrCompatible' does not exist in type 'Renderer | ((canvas: Canvas) => Renderer) | Partial<Properties<WebGLRenderer> | WebGLRendererParameters>'.
+src/components/Labs/Physics/VRSpaceLab.tsx(487,11): error TS2353: Object literal may only specify known properties, and 'xrCompatible' does not exist in type 'Renderer | ((canvas: Canvas) => Renderer) | Partial<Properties<WebGLRenderer> | WebGLRendererParameters>'.
+src/data/chemistryReactions.ts(578,5): error TS1117: An object literal cannot have multiple properties with the same name.
+src/data/chemistryReactions.ts(579,5): error TS1117: An object literal cannot have multiple properties with the same name.

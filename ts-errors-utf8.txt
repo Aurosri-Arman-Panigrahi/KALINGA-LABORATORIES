@@ -1,0 +1,2 @@
+﻿src/components/Lobby/LobbyScene.tsx(133,25): error TS2322: Type '{ cameraTarget: MutableRefObject<{ x: number; y: number; z: number; } | null>; onComplete: MutableRefObject<(() => void) | null>; }' is not assignable to type 'IntrinsicAttributes & CameraControllerProps'.
+  Property 'cameraTarget' does not exist on type 'IntrinsicAttributes & CameraControllerProps'.
